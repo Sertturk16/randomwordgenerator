@@ -20,7 +20,7 @@
           <div>
             <div class="word-card-wrapper text-center">
               <v-alert color="primary" prominent style="color: #fff">
-                {{ currentWord }}
+                {{ currentWord.trim() }}
               </v-alert>
             </div>
             <div class="text-center mb-2">
